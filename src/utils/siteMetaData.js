@@ -6,7 +6,7 @@ const siteMetadata = {
     description: 'A blog created with Next.js, Tailwind.css and contentlayer.',
     language: 'en-us',
     theme: 'system', // system, dark or light
-    siteUrl: 'https://makerspace.vercel.app', // your website URL
+    siteUrl: 'https://makerspace-seven.vercel.app/', // your website URL
     siteLogo: '/profile-img.png',
     socialBanner: '/social-banner.png', // add social banner in the public folder
     email: 'J.59shah@icloud.com', 
