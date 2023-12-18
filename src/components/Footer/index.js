@@ -20,11 +20,11 @@ const Footer = () => {
         Interesting Stories | Updates | Guides
       </h3>
       <p className="mt-5 px-4 text-center w-full sm:w-3/5 font-light dark:font-medium text-sm sm:text-base">
-        Subscribe to learn about the latest trends in the Ecosystem. Join with
-        members community to stay up to date with latest news.
+        {/* Subscribe to learn about the latest trends in the Ecosystem. Join with
+        members community to stay up to date with latest news. */} Newsletter Coming Soon!
       </p>
 
-      <form
+      {/* <form
         onSubmit={handleSubmit(onSubmit)}
         className="mt-6 w-fit sm:min-w-[384px] flex items-stretch bg-light dark:bg-dark p-1 sm:p-2 rounded mx04"
       >
@@ -39,7 +39,7 @@ const Footer = () => {
           type="submit"
           className="bg-dark text-light dark:text-dark dark:bg-light cursor-pointer font-medium rounded px-3 sm:px-5 py-1"
         />
-      </form>
+      </form> */}
       <div className="flex items-center mt-8">
         <a
           href={siteMetadata.linkedin}
@@ -56,23 +56,7 @@ const Footer = () => {
           target="_blank"
         >
           <TwitterIcon className="hover:scale-125 transition-all ease duration-200" />
-        </a>
-        <a
-          href={siteMetadata.github}
-          className="inline-block w-6 h-6 mr-4 fill-light"
-          aria-label="Check my profile on Github"
-          target="_blank"
-        >
-          <GithubIcon className="fill-light dark:fill-dark  hover:scale-125 transition-all ease duration-200" />
-        </a>
-        <a
-          href={siteMetadata.dribbble}
-          className="inline-block w-6 h-6 mr-4"
-          aria-label="Check my profile on Dribbble"
-          target="_blank"
-        >
-          <DribbbleIcon className="hover:scale-125 transition-all ease duration-200" />
-        </a> */}
+        </a>*/}
       </div>
 
       <div className="w-full  mt-16 md:mt-24 relative font-medium border-t border-solid border-light py-6 px-8 flex  flex-col md:flex-row items-center justify-between">
