@@ -1,0 +1,132 @@
+---
+title: "Analytics and Product Market Fit"
+description: Does Your product have a market fit?
+image: "../../public/blogs/image-9.png"
+publishedAt: "2023-12-16"
+updatedAt: "2023-12-16"
+author: "Jay Shah"
+isPublished: true
+tags: 
+- strategies
+---
+ 
+## 1. What is Product market Fit?
+
+- Put simply, PMF is the value that a given product provides in addressing a specific market segment’s need.
+
+- In defining product-market fit, we also address some common misconceptions about the term:
+
+    1. PMF is not about everyone. There is a specific, definable market segment that is the focus of your product. Ultimately, your product should address that segment’s needs extremely well.
+    2. PMF is not static. The value of a product can change over time as the product changes, the market changes, or both. This means that product-market fit should be continuously monitored to detect and prevent slipping product value.
+    3. PMF is not binary. PMF is often thought of in black-and-white terms. It is not. PMF is about value. And products can be more or less valuable. The key point is whether the product drives enough value to justify scaling it.
+
+## Pre-requisites to Evaluating Product Market Fit
+
+- As noted above, analyzing user activity is the right way to measure product-market fit. If people like your product, they will continue to use it. And so, before diving into an analysis of product-market fit, we should first clarify some key definitions related to user activity.
+
+- 1.1 What does active mean for your product?
+
+    - This is the definition that we refer to when we talk about a product’s number of “active users”. This is usually defined by a key action that someone must take on your product to indicate that they were active and received some value.
+
+    - For some products, the question of whether someone used your product is trivial. For example, maybe they made a purchase from your online store (active buyer), or maybe they created an ad (active advertiser). For many consumer products, however, we find that the definition may vary. Some common definitions include whether someone logged on, whether they engaged in a specific interaction or whether they spent a minimum amount of time in the product.
+
+    - A common tradeoff is between an action that is earlier in the consumer’s journey (they logged in to WhatsApp) and one that is later in the journey (they sent a message). By definition, there will be more people who conduct earlier actions. But later actions typically represent a higher degree of engagement, and so are more indicative of whether the person received value.
+
+    - The broader point is to be explicit and transparent with your product team about how you want to measure whether someone was “active” on your product. Remember, activity is a key measure of whether people find value in your product.
+
+- 1.2 Who is in your Target market segment?
+
+    - A common misconception about product-market fit is that it’s about everyone. It is not. There should be a specific, definable market segment that is the focus of your product. Ultimately, your product should address that segment’s needs extremely well.
+
+    - Therefore, an important prerequisite to evaluating product-market fit is to first agree on your product’s target market segment. Qualitative research can be particularly useful in identifying the core problem that your product solves, and for whom. If your goal is to reach significant scale, then the target market segment should be large.
+
+    - Another important consideration is when there may be more than one target market segment.
+
+    - If you’re building such a product, you should be explicit about whose needs your product solves on both sides of the market. A common pitfall is to focus only on one side of the market but to overlook the other.
+
+    - In many cases, the different sides of the market will also require different “active” definitions. You’ll need to evaluate product-market fit for both of these critical market segments.
+
+## The FrameWork
+
+- At the heart of the framework are three key measures:
+ 
+    1. Stable Retention: Do People Keep coming back?
+    2. Sustainable Growth : Can you consistently acquire, retain, and resurrect more people over time?
+    3. Deep Engagement : Do people use your product often and/or for long stretches?
+
+- We think of these measures as vital signs that indicate product health. Ultimately, products with a high degree of product-market fit are retentive, growing, and engaging.
+
+# 1. Stable Retention
+
+- Retention is the percentage of people that are still active on the product a specific time period after their first action date.
+
+- 𝐑(𝐘) = 𝑽(𝒀) / 𝑽(0)
+
+    𝐘 = Days since first action.
+    𝐑(𝐘) = Retention Y days since the first action date (i.e., acquisition).
+    𝑽(0) = Volume of people who had the first action on a given date. The first action date is “day 0”.
+    𝑽(𝐘) = Volume of people active Y days since their first action date.
+
+- For example, say that 100 people first tried your product on January 1, 2022. If 20 of those people were active on “day 7” (i.e., January 8, 2022), then your product would have Day 7 retention of 20% (more formally, Daily Active People @ Day 7 = 20%).
+
+- Retention is one of the most important indicators of the value of your product. If people find your product useful then they will come back to use it again. You don’t need millions of users to do this analysis.
+
+- In order to evaluate the retention of your product:
+
+    - Calculating short- and long-term retention to show that a stable percentage of people continue to use your product over time.
+    - Comparing retention across acquisition cohorts to show that your product is stable or improving over time.
+    - Comparing your product’s retention to benchmarks from established products.
+
+# 2. Sustainable Growth
+
+- Growth is a hallmark of a successful product. Rapid growth is expected of a product that has a high degree of product-market fit.
+
+- But a key challenge in using growth as an indicator of PMF is that it can incentivize the wrong focus. Focusing solely on growth without making any significant improvements to the underlying user experience will ultimately fail to engage and retain people in the long term. Such products don’t last.
+
+- First designate a growth accounting “state” to each person who has used the product. On a daily basis*, there are five states:
+
+    1. New: The person used the product for the first time today (i.e., they were acquired today).
+    2. Retained: The person was active on the product yesterday and active again today.
+    3. Churned: The person was active on the product yesterday but was inactive today.
+    4. Resurrected: The person was inactive on the product yesterday but was active today (distinct from New because today is not their first ever use of the product).
+    5. Stale: The person was inactive on the product yesterday and was inactive again today.
+
+- We can then use these states to understand several important metrics about product growth. For example, the number of active users on the product today is calculated as:
+
+    - Number of Active Users = New + Resurrected + Retained
+
+- And in order to understand the growth of the product from day to day, some simple algebra allows us to derive the formula:
+
+    - Net Growth = New + Resurrected — Churned
+
+- Successful products should grow. This means that day over day, week over week, and month over month, net growth should generally be positive.
+
+- However, positive net growth can be driven by high top-of-funnel acquisition — i.e., the “new” component of the formula. Overly aggressive acquisition can mask serious problems with churn. You could spend millions of dollars on marketing to get people to try the product once, but if they don’t like it and don’t retain, then that spend was effectively wasted. This is why retention is the first check in our framework for evaluating product-market fit. We then closely scrutinize this net growth formula to ensure that our product’s growth is sustainable.
+
+# 3. Deep Engagement 
+
+- Retention indicates whether people find value and come back. Our growth metrics tell us whether we are able to scale sustainably. Engagement reveals the depth with which people interact with our products. There are several common metrics that are used to measure depth of engagement, including:
+
+    - Time spent per day — The average time spent in the product per day across all users.
+    - L28 — The number of days out of the last 28 that people used your product.
+    - Average revenue per person — The average spend per person per day, week, or month (e.g., for commerce products).
+
+- These metrics go beyond retention and growth to highlight whether people regularly or deeply use your product. Engagement is highly predictive of retention, and can separate average products from outsized winners. Like with retention, we compare these metrics to established benchmarks to understand how a new product performs.
+
+# Summary
+
+- Putting this all together, we arrive at a comprehensive picture of a product’s value to the market. Highly valuable products — those with a high degree of product-market fit — keep people coming back (retention), sustainably acquire new people (growth) and are used regularly or for long stretches (engagement).
+
+<Image
+  src="/blogs/pmf.png"
+  width="718"
+  height="404"
+  alt="Image"
+  sizes="100vw"
+/>
+
+
+- Products that fall short on one of more of these measures should be improved before further scaling. Products that are highly retentive but not growing sustainably should focus on acquisition — specifically the “new” and “resurrected” components of the net growth formula.
+
+- Overall, product-market fit is a central concept that enforces a high bar of product quality.
+
