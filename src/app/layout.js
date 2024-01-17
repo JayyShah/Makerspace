@@ -70,6 +70,14 @@ export default function RootLayout({ children }) {
     document.documentElement.classList.remove('dark')
   }`}
         </Script>
+        
+        {/* Google AdSense Script */}
+        <Script
+          async
+          src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-4222600372461163"
+          crossorigin="anonymous"
+        />
+
         <Header />
         {children}
         <Footer />
