@@ -56,6 +56,7 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
+      <meta name="google-adsense-account" content="ca-pub-4222600372461163"></meta>
       <body
         className={cx(
           inter.variable,
