@@ -1,17 +1,10 @@
 const SkillList = [
-  "Incubation Support",
-  "Access To Community",
-  "1:1 Mentorship",
-  "Customer Experience Strategies",
-  "Brand Strategy",
-  // "Gatsby.js",
-  // "strapi",
-  // "firebase",
-  // "generative AI",
-  // "wireframing",
-  // "SEO",
-  // "framer motion",
-  // "sanity",
+  "Growth Strategy",
+  "Business Expansion Plans",
+  "Market Reasearch & Competitor Analysis",
+  "Financial Planning",
+  "Data Driven Decision Making",
+  "Investment and M&A Strategy"
 ];
 
 const Skills = () => {

@@ -5,9 +5,9 @@ const insights = [
     "Venture Capital",
     "Pitch Deck",
     "FundRaising",
-    "Startups",
-    "Brand Strategy",
-    "Customer Experience Strategies",
+    "Financial Modelling",
+    "Business Model Evaluation",
+    "Growth Consulting",
   ];
 
 export default function AboutLayout({ children }) {
