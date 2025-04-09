@@ -18,7 +18,7 @@ const AboutCoverSection = () => {
             Dream Big, Work Hard, Achieve More!
             </h2> */}
             <p className='font-medium capitalize mt-4 text-base'>
-            Welcome to MakerSpace, your hub for startup insights, fundraising, and venture capital. We offer expertise to entrepreneurs and business enthusiasts. Beyond blogs, we curate in-depth articles on startup dynamics, fundraising strategies, and venture capital. Our commitment includes exclusive features like Customer Experience strategy, incubation support, mentorship, and access to a vibrant community. Whether a pro or budding entrepreneur, MakerSpace is your go-to for success in the startup landscape. Join us, unlock premium features, and position yourself for success in the dynamic world of entrepreneurship. Explore MakerSpace, where innovation meets opportunity.
+            The Makerspace helps startups and SMEs unlock their full potential through strategic consulting, market insights, and financial analysis. With a data-driven approach, we craft actionable solutions that drive growth, efficiency, and competitive advantage. Our mission is to equip businesses with the right strategies to scale effectively and navigate market complexities.
             </p>
         </div>
     </section>
