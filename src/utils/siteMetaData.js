@@ -14,7 +14,7 @@ const siteMetadata = {
     // twitter: 'https://twitter.com/code_bucks',
     // facebook: 'https://facebook.com',
     // youtube: 'https://youtube.com/codebucks',
-    linkedin: 'https://www.linkedin.com/in/jay-shah-742751161/',
+    linkedin: 'https://www.linkedin.com/in/jayyshah/',
     // dribbble: 'https://www.dribbble.com',
     locale: 'en-US',
   }
